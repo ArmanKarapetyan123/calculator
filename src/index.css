@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+  color:#757575;
+  font-weight: bold;
+}
+/* .number_1:after {
+  content:'1';
+}
+.number_2:after {
+  content:'2';
+}
+.number_3:after {
+  content:'3';
+}
+.number_4:after {
+  content:'4';
+}
+.number_5:after {
+  content:'5';
+}
+.number_6:after {
+  content:'6';
+}
+.number_7:after {
+  content:'7';
+}
+.number_8:after {
+  content:'8';
+}
+.number_9:after {
+  content:'9';
+}
+.number_0:after {
+  content:'0';
+}
+.number_10:after {
+  content:'+';
+}
+.number_11:after {
+  content:'*';
+}
+.number_13:after {
+  content:'.';
+}
+.number_14:after {
+  content:'/';
+}
+.number_15:after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content:'=';
+  visibility: visible;
+  position: absolute;
+  background-color: #FF0509;
+  box-shadow: 0 0 0.5rem #FF0509;
+  padding:10px;
+  border-radius: 50%;
+  width:30px;
+}
+.number_16:after {
+  content:'-';
+} */
+
+.calculator {
+    max-width: 300px;
+    margin:50px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    filter:drop-shadow(0 0 1rem #afb8c1);
+    border-radius: 10px;
+ }
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width:100%;
+  background-color:#FF0509;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.header-input {
+  height: 50px;
+  outline: none;
+  border:none;
+  background-color: transparent !important;
+  text-align: right;
+  font-size: 40px;
+  width:90%;
+  padding-right: 8px;
+  caret-color: transparent;
+}
+.header-input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin:0;
+}
+.header-input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin:0;
+}
+.numberItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px; 
+  width: 30px;
+  background-color: #ECEDEF;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 0 0 0.3rem #d3dcee;
+}
+
+.numberList {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width:100%;
+  height: 300px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top:10px;
+  gap:0.5rem;
+}
+
+
+  
